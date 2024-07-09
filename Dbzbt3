@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades e Mistérios - Dragon Ball Z: Budokai Tenkaichi 3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff9900;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #ff9900;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .search-container {
+            margin: 20px 0;
+        }
+        .search-box {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .hidden {
+            display: none;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+    <script>
+        function searchFunction() {
+            var input = document.getElementById('searchInput').value.toLowerCase();
+            if (input === "goku") {
+                window.location.href = "goku.html";
+            } else if (input === "vegeta") {
+                window.location.href = "vegeta.html";
+            } else {
+                alert("Personagem não encontrado.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Curiosidades e Mistérios</h1>
+        <h2>Dragon Ball Z: Budokai Tenkaichi 3 (PS2)</h2>
+    </header>
+    <main>
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-box" placeholder="Pesquise sobre modos, personagens, missões ou curiosidades de mapas...">
+            <button onclick="searchFunction()">Buscar</button>
+        </div>
+        <section>
+            <h2>Curiosidades</h2>
+            <ul id="contentList">
+                <li>
+                    <strong>Maior elenco de personagens:</strong> O jogo possui mais de 160 personagens jogáveis, incluindo diferentes formas de muitos deles.
+                    <img src="https://i.imgur.com/N0Rzjnh.jpg" alt="Personagens de Dragon Ball Z: Budokai Tenkaichi 3">
+                </li>
+                <li>
+                    <strong>Personagens exclusivos:</strong> Alguns personagens, como Arale e General Blue, são exclusivos da versão japonesa.
+                    <img src="https://i.imgur.com/WS6hpe6.jpg" alt="Personagens exclusivos">
+                </li>
+                <li>
+                    <strong>Modo História:</strong> O modo história cobre quase todos os arcos de "Dragon Ball", "Dragon Ball Z" e alguns de "Dragon Ball GT" e filmes.
+                    <img src="https://i.imgur.com/aojHHIC.jpg" alt="Modo História">
+                </li>
+                <li>
+                    <strong>Transformações em batalha:</strong> Muitos personagens podem se transformar durante a batalha, mudando suas habilidades e aparência.
+                    <img src="https://i.imgur.com/5txTs1G.jpg" alt="Transformações em batalha">
+                </li>
+                <li>
+                    <strong>Final alternativo:</strong> Existe um final alternativo no modo história, onde Bardock derrota Freeza e muda o curso dos acontecimentos.
+                    <img src="https://i.imgur.com/TsRnnzT.jpg" alt="Final alternativo">
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Mistérios</h2>
+            <ul>
+                <li>
+                    <strong>Personagens escondidos:</strong> Existem personagens desbloqueáveis que requerem cumprir certos requisitos, como vencer torneios ou completar desafios específicos.
+                    <img src="https://i.imgur.com/RvU7FSP.jpg" alt="Personagens escondidos">
+                </li>
+                <li>
+                    <strong>Cenários ocultos:</strong> Alguns cenários só são desbloqueados após completar certas missões no modo história ou desafio.
+                    <img src="https://i.imgur.com/3i8B9Vp.jpg" alt="Cenários ocultos">
+                </li>
+                <li>
+                    <strong>Senhas secretas:</strong> O jogo permite inserir senhas para desbloquear personagens ou itens especiais, muitas dessas senhas eram distribuídas em eventos ou revistas especializadas.
+                    <img src="https://i.imgur.com/ZkUv8Ud.jpg" alt="Senhas secretas">
+                </li>
+                <li>
+                    <strong>Combos infinitos:</strong> Alguns jogadores descobriram combos que, se executados corretamente, podem ser infinitos, garantindo vitória certa em combates.
+                    <img src="https://i.imgur.com/zZ8IkdU.jpg" alt="Combos infinitos">
+                </li>
+                <li>
+                    <strong>Referências escondidas:</strong> Existem diversas referências a outros jogos e séries dentro do jogo, como diálogos e movimentos especiais.
+                    <img src="https://i.imgur.com/cOzX8Zb.jpg" alt="Referências escondidas">
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 Curiosidades e Mistérios - Dragon Ball Z: Budokai Tenkaichi 3
+    </footer>
+</body>
+</html>
